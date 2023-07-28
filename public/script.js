@@ -1,8 +1,8 @@
 // Function to fetch users from the JSON Server API and display them
 
-const apiUrl = 'https://json-server-testing.onrender.com/users';
+// const apiUrl = 'https://json-server-testing.onrender.com/users';
 
-// const apiUrl = 'http://localhost:3000/api/users';
+const apiUrl = 'http://localhost:3000/api/users';
 
 function fetchUsers() {
     fetch(apiUrl)
